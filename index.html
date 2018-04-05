@@ -7,6 +7,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-K9V9FT6');</script>
+	<!-- End Google Tag Manager -->
 <title>Lumin</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -20,11 +27,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 <!-- Google Analytics -->
 <script>
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	
 	ga('create', 'UA-116955706-1', 'auto');
 	ga('send', 'pageview');
 </script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
 <!-- End Google Analytics -->
 </head>
 
@@ -580,7 +590,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		-->
 		<div class="col-md-4 footer-right-w3 download" >
 			<a href="index.html"><h4><img class="footer-logo" src="images/luminbackgroundtemplate-black.png" alt=" " /></h4></a>
-			<p><a href="build/PlayableBuild.zip" onClick="ga('send', 'event', 'downloads', 'click', 'build');">Download</a> the lastest build</p>
+			<p><a href="build/PlayableBuild.zip" onclick="ga('send', {
+				hitType: 'event',
+				eventCategory: 'downloads',
+				eventAction: 'click',
+				eventLabel: 'build'
+			  });">Download</a> the lastest build</p>
 		</div>
 		<div class="clearfix"></div>
 		<!-- <div class="copyright">
