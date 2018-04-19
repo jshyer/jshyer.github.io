@@ -1741,7 +1741,8 @@ color:rgb(2, 24, 136) !important;
 		font-size: 35px;
 	}
 	.navbar-header img {
-		width: 18%;
+		/* width: 18%; */
+		width: 22%;
 	}
 	.navbar-nav>li {
 		padding: 5px 8px;
@@ -2021,7 +2022,7 @@ color:rgb(2, 24, 136) !important;
 		background-color: transparent;
 	}	
 	.navbar-header img {
-		width: 7%;
+		width: 22%;
 	}
 	.navbar-nav {
 		margin: 0;
@@ -2487,7 +2488,8 @@ color:rgb(2, 24, 136) !important;
 		height: 225px;
 	}
 	.navbar-header img {
-		width: 10%;
+		/* width: 10%; */
+		width: 22%;
 	}
 	.trend-w3layouts h2, .new-w3-agile h3, .services-agileits-w3layouts h3, .services-bottom-w3-agileits h3, .about-agileinfo h2, .team-w3layouts h3, .gallery-w3layouts h2, .contact-agileinfo h2, .events-w3layouts h2 {
 		font-size: 28px;
