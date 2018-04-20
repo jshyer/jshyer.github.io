@@ -2762,3 +2762,11 @@ color:rgb(2, 24, 136) !important;
 	display: flex;
 	flex-wrap: wrap;
 }
+@media screen and (max-width: 384px){
+	.youtube{
+		width: 100%;
+	}
+}
+.youtube{
+	width: 75%;
+}
