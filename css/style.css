@@ -2770,7 +2770,8 @@ color:rgb(2, 24, 136) !important;
 }
 @media screen and (min-width: 426px){
 	.youtube{
-		width: 75%;
+		width: 640px;
+		height: 360px;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
