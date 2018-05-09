@@ -2820,7 +2820,11 @@ color:rgb(2, 24, 136) !important;
     transform: translateZ(90px) scale(.7);
     z-index: 1;
   }
-
+  .parallax__layer--front{
+	  -webkit-transform: translateZ(45px) scale(0.8);
+	  transform: translateZ(45px) scale(0.8);
+	  z-index: 4;
+  }
   .parallax__layer--base {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
