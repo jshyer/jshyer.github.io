@@ -76,7 +76,7 @@ img {
 	font-size:40px;
 }
 .navbar-header img{
-	width:22%;
+	width:50%;
 }
 .navbar-nav>li {
 	padding: 5px 15px;
@@ -1742,7 +1742,7 @@ color:rgb(2, 24, 136) !important;
 	}
 	.navbar-header img {
 		/* width: 18%; */
-		width: 22%;
+		width:50%;
 	}
 	.navbar-nav>li {
 		padding: 5px 8px;
@@ -2023,7 +2023,7 @@ color:rgb(2, 24, 136) !important;
 		background-color: transparent;
 	}	
 	.navbar-header img {
-		width: 22%;
+		width: 50%;
 	}
 	.navbar-nav {
 		margin: 0;
@@ -2384,7 +2384,7 @@ color:rgb(2, 24, 136) !important;
 		font-size: 27px;
 	}
 	.navbar-header img {
-		width: 25%;
+		width: 50%;
 	}
 	.view .mask, .view .content {
 		padding: 67px 0;
@@ -2490,7 +2490,7 @@ color:rgb(2, 24, 136) !important;
 	}
 	.navbar-header img {
 		/* width: 10%; */
-		width: 22%;
+		width: 50%;
 	}
 	.trend-w3layouts h2, .new-w3-agile h3, .services-agileits-w3layouts h3, .services-bottom-w3-agileits h3, .about-agileinfo h2, .team-w3layouts h3, .gallery-w3layouts h2, .contact-agileinfo h2, .events-w3layouts h2 {
 		font-size: 28px;
@@ -2777,5 +2777,12 @@ color:rgb(2, 24, 136) !important;
 		margin-right: auto;
 	}
 }
-
-
+.parallax{
+	
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    background-image: url("images/lumincave.png");
+}
