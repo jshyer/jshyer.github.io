@@ -557,7 +557,7 @@ a.learn:hover{
 
 .footer-right-w3 p{
 	font-size:14px;
-	color:#000;
+	color:white;
 	line-height:30px;
 }
 p.agileinfo{
@@ -2810,8 +2810,8 @@ color:rgb(2, 24, 136) !important;
   .parallax__layer {
     position: absolute;
     top: 0;
-    left: 0;
-    right: 0;
+    left: -8px;
+    right: -5px;
     bottom: 0;
   }
 
