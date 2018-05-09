@@ -9,7 +9,7 @@
 body {
 	padding: 0;
 	margin: 0;
-	background: #FFF;
+	background: #111111;
 	color:white;
 	/* font-family: 'LuminSemiBold', sans-serif; */
 	font-family: 'Montserrat', sans-serif;
@@ -231,7 +231,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 .trend-w3layouts h2,.new-w3-agile h3,.services-agileits-w3layouts h3,.services-bottom-w3-agileits h3,.about-agileinfo h2,.team-w3layouts h3,.gallery-w3layouts  h2,.contact-agileinfo h2,.events-w3layouts h2{
 	font-size:40px;
-	color:#000;
+	color:white;
 	margin-bottom:40px;
 }
 .services-agileits-w3layouts h3{
@@ -242,7 +242,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 .trend-w3layouts h4,.services-agileits-w3layouts h4{
 	font-size:27px;
-	color:#000;
+	color:white;
 	margin-bottom:20px;
 }
 /*--flexisel--*/
@@ -525,7 +525,7 @@ a.learn:hover{
 }
 .footer h4{
 	text-align:left;
-	color:#000;
+	color:white;
 	font-size:27px;
 	margin-bottom:30px;
 }
@@ -538,12 +538,12 @@ a.learn:hover{
 }
 .footer-left-w3 ul li h6{
 	font-size:16px;
-	color:#000;
+	color:white;
 	margin-left:10px;
 }
 .footer-left-w3 ul li a{
 	font-size:14px;
-	color:#000;
+	color:white;
 }
 .footer-middle-wthree{
 	margin-top:25px;
@@ -884,16 +884,16 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 /*-- team --*/
 .team-w3layouts {
-    background: #e8e8e8;
+    background: #111111;
 }
 
 .w3l_team_grid h4{
 	font-size:1.6em;
-	color:#000;
+	color:white;
 	margin:1em 0 .5em;
 }
 .w3l_team_grid p{
-	color:#999;
+	color:white;
 	text-align:center;
 }
 .view {
