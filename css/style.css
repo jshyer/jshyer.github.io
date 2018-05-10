@@ -2871,4 +2871,11 @@ color:rgb(2, 24, 136) !important;
 	#group1{
 		z-index: 1;
 	}
-	
+	.downloadbutton{
+		padding:15px;
+		background-color: black;
+		border-radius: 10px;
+	}
+	.downloadbutton:hover{
+		background-color: #6a6a6a;
+	}
