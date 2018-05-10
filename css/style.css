@@ -2778,9 +2778,10 @@ color:rgb(2, 24, 136) !important;
 		justify-content: space-evenly;
 	}
 }
-@media screen and (max-width: 320){
+@media screen and (max-width: 321){
 	.downloadbutton{
 		padding: 5px;
+		margin-right: 0px;
 	}
 }
 @media screen and (min-width: 426px){
