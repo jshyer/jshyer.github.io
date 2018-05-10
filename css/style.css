@@ -2777,8 +2777,14 @@ color:rgb(2, 24, 136) !important;
 		flex-direction: column;
 		justify-content: space-evenly;
 	}
+	.mobile-download-buttons{
+		display: block;
+	}
+	.desktop-download-buttons{
+		display:none;
+	}
 }
-@media screen and (min-width: 376px){
+/* @media screen and (min-width: 376px){
 	.downloadbutton{
 		padding:15px;
 		background-color: white;
@@ -2793,7 +2799,7 @@ color:rgb(2, 24, 136) !important;
 		border-radius: 5px;
 		margin-right: 0px;
 	}
-}
+} */
 @media screen and (min-width: 426px){
 	.youtube{
 		width: 640px;
@@ -2807,6 +2813,12 @@ color:rgb(2, 24, 136) !important;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-evenly;
+	}
+	.mobile-download-buttons{
+		display: none;
+	}
+	.desktop-download-buttons{
+		display:block;
 	}
 }
 /* .parallax{
