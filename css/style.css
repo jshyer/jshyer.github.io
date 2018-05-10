@@ -2789,6 +2789,8 @@ color:rgb(2, 24, 136) !important;
 @media screen and (max-width: 321px){
 	.downloadbutton{
 		padding: 5px;
+		background-color: white;
+		border-radius: 5px;
 		margin-right: 0px;
 	}
 }
