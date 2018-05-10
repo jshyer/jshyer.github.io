@@ -2875,6 +2875,7 @@ color:rgb(2, 24, 136) !important;
 		padding:15px;
 		background-color: black;
 		border-radius: 10px;
+		margin-right: 10px;
 	}
 	.downloadbutton:hover{
 		background-color: #6a6a6a;
