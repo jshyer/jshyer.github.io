@@ -2766,7 +2766,7 @@ color:rgb(2, 24, 136) !important;
 	display: flex;
 	flex-wrap: wrap;
 }
-@media screen and (max-width: 425px){
+@media screen and (max-width: 426px){
 	.youtube{
 		width: 100%;
 		display: block;
@@ -2806,7 +2806,7 @@ color:rgb(2, 24, 136) !important;
 		margin-right: 0px;
 	}
 } */
-@media screen and (min-width: 426px){
+@media screen and (min-width: 427px){
 	.youtube{
 		width: 640px;
 		height: 360px;
