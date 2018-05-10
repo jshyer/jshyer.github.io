@@ -2778,7 +2778,15 @@ color:rgb(2, 24, 136) !important;
 		justify-content: space-evenly;
 	}
 }
-@media screen and (max-width: 321){
+@media screen and (min-width: 322px){
+	.downloadbutton{
+		padding:15px;
+		background-color: white;
+		border-radius: 10px;
+		margin-right: 10px;
+	}
+}
+@media screen and (max-width: 321px){
 	.downloadbutton{
 		padding: 5px;
 		margin-right: 0px;
@@ -2877,12 +2885,7 @@ color:rgb(2, 24, 136) !important;
 	#group1{
 		z-index: 1;
 	}
-	.downloadbutton{
-		padding:15px;
-		background-color: white;
-		border-radius: 10px;
-		margin-right: 10px;
-	}
+	
 	.downloadbutton:hover{
 		background-color: #6a6a6a;
 	}
