@@ -2786,6 +2786,12 @@ color:rgb(2, 24, 136) !important;
 	.view{
 		display:none;
 	}
+	.maincontent-desktop{
+		display:none;
+	}
+	.maincontent-mobile{
+		display:block;
+	}
 }
 .downloadbutton{
 	padding: 15px;
@@ -2793,22 +2799,7 @@ color:rgb(2, 24, 136) !important;
 	border-radius: 10px;
 	margin-right: 10px;
 }
-/* @media screen and (min-width: 376px){
-	.downloadbutton{
-		padding:15px;
-		background-color: white;
-		border-radius: 10px;
-		margin-right: 10px;
-	}
-}
-@media screen and (max-width: 375px){
-	.downloadbutton{
-		padding: 5px;
-		background-color: white;
-		border-radius: 5px;
-		margin-right: 0px;
-	}
-} */
+/*desktop*/
 @media screen and (min-width: 427px){
 	.youtube{
 		width: 640px;
@@ -2831,6 +2822,12 @@ color:rgb(2, 24, 136) !important;
 	}
 	.view{
 		display:block;
+	}
+	.maincontent-desktop{
+		display:block;
+	}
+	.maincontent-mobile{
+		display:none;
 	}
 }
 /* .parallax{
