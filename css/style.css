@@ -2783,6 +2783,9 @@ color:rgb(2, 24, 136) !important;
 	.desktop-download-buttons{
 		display:none;
 	}
+	.view{
+		display:none;
+	}
 }
 .downloadbutton{
 	padding: 15px;
@@ -2824,6 +2827,9 @@ color:rgb(2, 24, 136) !important;
 		display: none;
 	}
 	.desktop-download-buttons{
+		display:block;
+	}
+	.view{
 		display:block;
 	}
 }
