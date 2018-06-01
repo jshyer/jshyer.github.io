@@ -2795,9 +2795,10 @@ color:rgb(2, 24, 136) !important;
 	}
 	.maincontent-mobile{
 		display:block;
+		background-color: #191919;
 	}
 	.forelayer{
-		z-index: 1;
+		z-index: -10;
 	}
 }
 .downloadbutton{
@@ -2837,7 +2838,7 @@ color:rgb(2, 24, 136) !important;
 		display:none;
 	}
 	.forelayer{
-		z-index: -10;
+		z-index: 1;
 	}
 }
 /* .parallax{
