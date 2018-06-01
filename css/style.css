@@ -2766,6 +2766,10 @@ color:rgb(2, 24, 136) !important;
 	display: flex;
 	flex-wrap: wrap;
 }
+.forelayer{
+	position:relative;
+	top: 325px;
+}
 @media screen and (max-width: 426px){
 	.youtube{
 		width: 100%;
@@ -2791,6 +2795,9 @@ color:rgb(2, 24, 136) !important;
 	}
 	.maincontent-mobile{
 		display:block;
+	}
+	.forelayer{
+		display:none;
 	}
 }
 .downloadbutton{
@@ -2828,6 +2835,9 @@ color:rgb(2, 24, 136) !important;
 	}
 	.maincontent-mobile{
 		display:none;
+	}
+	.forelayer{
+		display:block;
 	}
 }
 /* .parallax{
