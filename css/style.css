@@ -2795,7 +2795,7 @@ color:rgb(2, 24, 136) !important;
 	}
 	.maincontent-mobile{
 		display:block;
-		background-color: #191919;
+		background-color: #191919 !important;
 	}
 	.forelayer{
 		z-index: -10;
