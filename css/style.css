@@ -2857,6 +2857,7 @@ color:rgb(2, 24, 136) !important;
   --------------------------------------------- */
 
   .parallax {
+	  background-color:#000000;
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
