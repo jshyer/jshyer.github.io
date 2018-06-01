@@ -2797,7 +2797,7 @@ color:rgb(2, 24, 136) !important;
 		display:block;
 	}
 	.forelayer{
-		display:none;
+		z-index: 1;
 	}
 }
 .downloadbutton{
@@ -2837,7 +2837,7 @@ color:rgb(2, 24, 136) !important;
 		display:none;
 	}
 	.forelayer{
-		display:block;
+		z-index: -10;
 	}
 }
 /* .parallax{
