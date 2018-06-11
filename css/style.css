@@ -3007,7 +3007,7 @@ color:rgb(2, 24, 136) !important;
 	}
 	
 	
-	@media only screen and (max-width: 768px) {
+	@media only screen and (max-width: 890px) {
 		#hero {
 			display: none;
 		}
