@@ -2770,7 +2770,7 @@ color:rgb(2, 24, 136) !important;
 	position:relative;
 	top: 325px;
 }
-@media screen and (max-width: 426px){
+@media screen and (max-width: 768px){
 	.youtube{
 		width: 100%;
 		display: block;
@@ -2811,7 +2811,7 @@ color:rgb(2, 24, 136) !important;
 	margin-right: 10px;
 }
 /*desktop*/
-@media screen and (min-width: 427px){
+/*@media screen and (min-width: 427px){*/
 	.youtube{
 		width: 640px;
 		height: 360px;
@@ -2843,7 +2843,7 @@ color:rgb(2, 24, 136) !important;
 	.forelayer{
 		z-index: 1;
 	}
-}
+/*}
 /* .parallax{
 	background-image: url("/images/lumincave.png");
 	min-height: 500px;
