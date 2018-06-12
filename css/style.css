@@ -3030,3 +3030,10 @@ color:rgb(2, 24, 136) !important;
 		}
 		
 	}
+
+	.carousel-desktop{
+		height: 100vh;
+	}
+	.carousel-mobile{
+		height: 100%;
+	}
