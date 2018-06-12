@@ -2966,7 +2966,7 @@ color:rgb(2, 24, 136) !important;
 	
 	#hero-mobile {
 		display: none;
-		background: url("../images/lumin_bg_01-01.png") no-repeat center bottom / cover;
+		background: url("../images/lumin_bg_01-02.png") no-repeat center bottom / cover;
 		height: 425px;
 	}
 	
@@ -3009,7 +3009,7 @@ color:rgb(2, 24, 136) !important;
 	
 	}
 	.layer-overlay {
-		background-image: url('../images/luminbackgroundtemplate.png');
+		background-image: url('../images/luminbackgroundtemplate_02.png');
 		top: -200px;
 		background-size: contain;
 	}
