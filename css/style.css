@@ -2805,6 +2805,9 @@ color:rgb(2, 24, 136) !important;
 	.team-w3layouts{
 		background-color: #121212 !important;
 	}
+	.responsive-footer{
+		display:none;
+	}
 }
 .downloadbutton{
 	padding: 15px;
@@ -2844,6 +2847,9 @@ color:rgb(2, 24, 136) !important;
 	}
 	.forelayer{
 		z-index: 1;
+	}
+	.responsive-footer{
+		display: block;
 	}
 }
 /* .parallax{
@@ -3022,4 +3028,5 @@ color:rgb(2, 24, 136) !important;
 		#hero-mobile {
 			display: block;
 		}
+		
 	}
