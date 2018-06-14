@@ -22,6 +22,9 @@ body a {
 	-ms-transition: 0.5s all;
 	text-decoration: none;
 }
+a{
+	color: grey !important;
+}
 body a:hover {
 	text-decoration: none;
 }
@@ -2988,7 +2991,7 @@ color:rgb(2, 24, 136) !important;
 	}
 	
 	#hero, .layer {
-		min-height: 800px;
+		min-height: 1080px;
 		background-size:cover;
 	}
 	
@@ -3038,5 +3041,16 @@ color:rgb(2, 24, 136) !important;
 		height: 100%;
 	}
 	.mobile-images{
+		padding:10px;
+	}
+	.platforms{
+		display:flex;
+		flex-direction:column;
+		margin-left: auto;
+		margin-right: auto;
+		text-align:center;
+		padding:15px;
+	}
+	.platform-obj{
 		padding:10px;
 	}
